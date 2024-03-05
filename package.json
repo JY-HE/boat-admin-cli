@@ -1,0 +1,45 @@
+{
+    "name": "@boatadmin/cli",
+    "version": "1.0.0",
+    "description": "快速构建vue相关项目的命令行工具",
+    "main": "index.js",
+    "bin": {
+        "boat": "bin/cli.js"
+    },
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsup"
+    },
+    "author": "Dreamboat",
+    "license": "MIT",
+    "keywords": [
+        "boat-admin",
+        "@boatadmin/cli",
+        "boat-admin-cli",
+        "vue-boat-admin",
+        "boat-admin-thin",
+        "tauri-boat-admin",
+        "electron-boat-admin"
+    ],
+    "files": [
+        "dist",
+        "bin"
+    ],
+    "dependencies": {
+        "axios": "^1.6.7",
+        "boxen": "^7.1.1",
+        "cac": "^6.7.14",
+        "fs-extra": "^11.2.0",
+        "gradient-string": "^2.0.2",
+        "inquirer": "^9.2.15",
+        "log-symbols": "^6.0.0",
+        "ora": "^8.0.1",
+        "path": "^0.12.7",
+        "picocolors": "^1.0.0",
+        "progress-estimator": "^0.3.1",
+        "semver": "^7.6.0",
+        "simple-git": "^3.22.0",
+        "trash": "^8.1.1"
+    }
+}

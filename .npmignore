@@ -1,0 +1,8 @@
+# 忽略目录
+node_modules/
+
+# 忽略指定文件
+babel.config.js
+*.map
+.prettierrc
+.eslintrc.js
