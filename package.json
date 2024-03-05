@@ -1,15 +1,15 @@
 {
     "name": "@boatadmin/cli",
     "version": "1.0.0",
+    "private": false,
     "description": "快速构建vue相关项目的命令行工具",
-    "main": "index.js",
+    "main": "bin/cli.js",
     "bin": {
         "boat": "bin/cli.js"
     },
     "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "tsup"
+        "publish": "npm publish"
     },
     "author": "Dreamboat",
     "license": "MIT",
@@ -23,9 +23,13 @@
         "electron-boat-admin"
     ],
     "files": [
-        "dist",
+        "lib",
         "bin"
     ],
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
     "dependencies": {
         "axios": "^1.6.7",
         "boxen": "^7.1.1",

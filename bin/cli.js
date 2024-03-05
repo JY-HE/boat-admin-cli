@@ -25,7 +25,6 @@ cli.command('create [projectName]', '创建一个新项目')
 
         // #region ------------------------- 选择模板下载源 -------------------------
         const isDownloadForGithub = await chooseDownloadOrigin();
-        console.log('🚀 ~ cli.js:27 ~ isDownloadForGithub:', isDownloadForGithub);
         // #endregion ---------------------- 选择模板下载源 - END -------------------
         download(projectName, undefined, isDownloadForGithub);
     });
