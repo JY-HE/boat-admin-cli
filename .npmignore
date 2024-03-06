@@ -1,8 +1,8 @@
 # 忽略目录
 node_modules/
+src/
 
 # 忽略指定文件
-babel.config.js
-*.map
+.gitignore
 .prettierrc
-.eslintrc.js
+package-lock.json

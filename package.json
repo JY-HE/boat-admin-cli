@@ -1,13 +1,12 @@
 {
     "name": "boat-admin-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": false,
     "description": "快速构建vue相关项目的命令行工具",
-    "main": "bin/cli.js",
+    "main": "lib/index.js",
     "bin": {
-        "boat": "bin/cli.js"
+        "boat": "lib/index.js"
     },
-    "type": "module",
     "scripts": {
         "publish": "npm publish"
     },
@@ -23,13 +22,9 @@
         "electron-boat-admin"
     ],
     "files": [
-        "lib",
-        "bin"
+        "lib"
     ],
-    "publishConfig": {
-        "access": "public",
-        "registry": "https://registry.npmjs.org/"
-    },
+    "type": "module",
     "dependencies": {
         "axios": "^1.6.7",
         "boxen": "^7.1.1",
