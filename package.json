@@ -1,11 +1,11 @@
 {
     "name": "boat-admin-cli",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "private": false,
     "description": "快速构建vue相关项目的命令行工具",
     "main": "lib/index.js",
     "bin": {
-        "boat": "lib/index.js"
+        "boat": "dist/cli.min.js"
     },
     "scripts": {
         "publish": "npm publish"
@@ -22,7 +22,7 @@
         "electron-boat-admin"
     ],
     "files": [
-        "lib"
+        "dist"
     ],
     "publishConfig": {
         "access": "public",
@@ -44,5 +44,8 @@
         "semver": "^7.6.0",
         "simple-git": "^3.22.0",
         "trash": "^8.1.1"
+    },
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.4"
     }
 }
