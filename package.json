@@ -1,6 +1,6 @@
 {
     "name": "boat-admin-cli",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "private": false,
     "description": "快速构建vue相关项目的命令行工具",
     "main": "bin/cli.mjs",
