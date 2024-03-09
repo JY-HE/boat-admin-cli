@@ -1,6 +1,6 @@
 {
     "name": "boat-admin-cli",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "private": false,
     "description": "快速构建vue相关项目的命令行工具",
     "main": "bin/cli.mjs",
@@ -17,13 +17,15 @@
     "author": "Dreamboat",
     "license": "MIT",
     "keywords": [
+        "boat",
+        "admin",
+        "cli",
         "boat-admin",
         "@boatadmin/cli",
         "boat-admin-cli",
         "vue-boat-admin",
         "boat-admin-thin",
-        "tauri-boat-admin",
-        "electron-boat-admin"
+        "脚手架"
     ],
     "files": [
         "dist",
